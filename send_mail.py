@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 def send_mail(customer, dealer, rating, comments):
     port = '2525'
     smtp_server = 'smtp.mailtrap.io'
-    login = 'd149cf21b6d6e9'
-    password = '4bccc1de8ce21c'
+    login = '..........'
+    password = '..........'
     message = f"<h3>New Feedback Submission</h3><ul><li>Customer: {customer}</li><li>Dealer: {
         dealer}</li><li>Rating: {rating}</li><li>Comments: {comments}</li></ul>"
     sender_email = 'd149cf21b6d6e9@smtp.mailtrap.io'
